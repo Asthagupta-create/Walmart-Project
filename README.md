@@ -12,7 +12,7 @@ Created trend analysis, forecasting insights, and statistical visualizations
 Designed optimized SQL Queries for KPI reporting and sales analysis
 Built interactive Power BI Dashboards and Tableau Reports
 Generated actionable business insights for strategic decision-making
-Implemented dynamic reporting and visualization features
+Implemented dynamic reporting and visualization features.
 
 # Tech Stack
 Python
@@ -24,7 +24,7 @@ Google Colab
 Pandas
 NumPy
 Matplotlib
-Seaborn
+Seaborn.
 
 # Tools & Technologies Used
 Data Analytics & Visualization
@@ -47,7 +47,7 @@ MySQL
 Complex SQL Queries
 Data Extraction
 Data Aggregation
-Business Reporting
+Business Reporting.
 
 # Dashboard Insights
 Store-wise sales performance analysis
@@ -55,7 +55,7 @@ Department-wise revenue tracking
 Holiday and seasonal sales analysis
 Fuel price and unemployment impact analysis
 KPI dashboards and forecasting visuals
-Revenue trend analysis and performance monitoring
+Revenue trend analysis and performance monitoring.
 
 # Project Workflow
 Data Collection & Integration
@@ -65,7 +65,7 @@ Exploratory Data Analysis (EDA)
 Statistical Analysis & Visualization
 SQL-Based Sales Analytics
 Dashboard Development
-Business Insight Generation
+Business Insight Generation.
 
 # Project Outcome
 
