@@ -1,72 +1,242 @@
-# Project Overview
+# 🛒 AI-Powered Walmart Sales Forecasting & Business Intelligence Dashboard
 
-The Walmart Sales Performance Analysis project is an end-to-end Retail Analytics and Business Intelligence solution developed to analyze Walmart sales performance, revenue trends, store efficiency, holiday sales, and external economic factors using data analytics and visualization techniques.
+## Overview
 
-The project focuses on transforming raw retail datasets into meaningful business insights through data cleaning, preprocessing, SQL analytics, exploratory data analysis, and interactive dashboard reporting. The analysis includes weekly sales performance, store-wise revenue tracking, department-level insights, seasonal trends, fuel prices, unemployment rates, CPI, and markdown impact analysis.
+This project delivers an end-to-end retail analytics solution using Python, SQL, and Power BI to analyze Walmart sales performance, forecast future sales trends, detect anomalies, and generate actionable business insights.
 
-# Key Features
-Integrated and analyzed multiple retail datasets
-Performed Data Cleaning, Data Transformation, and Feature Engineering
-Conducted Exploratory Data Analysis (EDA) for identifying sales patterns
-Created trend analysis, forecasting insights, and statistical visualizations
-Designed optimized SQL Queries for KPI reporting and sales analysis
-Built interactive Power BI Dashboards and Tableau Reports
-Generated actionable business insights for strategic decision-making
-Implemented dynamic reporting and visualization features.
+By integrating historical sales records, store information, and external economic indicators, the solution provides a comprehensive view of sales behavior across multiple stores and departments, enabling data-driven business decisions.
 
-# Tech Stack
-Python
-SQL
-MySQL
-Microsoft Power BI
-Tableau
-Google Colab
-Pandas
-NumPy
-Matplotlib
-Seaborn.
+---
 
-# Tools & Technologies Used
-Data Analytics & Visualization
-Data Analytics
-Business Intelligence
-Data Visualization
-Dashboard Development
-KPI Reporting
-Trend Analysis
-Forecasting Insights
-Statistical Analysis
-Python Libraries
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Database & Querying
-SQL
-MySQL
-Complex SQL Queries
-Data Extraction
-Data Aggregation
-Business Reporting.
+## 🎯 Business Problem
 
-# Dashboard Insights
-Store-wise sales performance analysis
-Department-wise revenue tracking
-Holiday and seasonal sales analysis
-Fuel price and unemployment impact analysis
-KPI dashboards and forecasting visuals
-Revenue trend analysis and performance monitoring.
+Retail organizations require accurate sales forecasting and performance monitoring to optimize inventory planning, workforce allocation, and revenue growth.
 
-# Project Workflow
-Data Collection & Integration
-Data Cleaning & Validation
-Data Preprocessing & Transformation
-Exploratory Data Analysis (EDA)
-Statistical Analysis & Visualization
-SQL-Based Sales Analytics
-Dashboard Development
-Business Insight Generation.
+This project addresses key business questions:
 
-# Project Outcome
+* Which stores and departments generate the highest revenue?
+* How do holidays impact sales performance?
+* What are the expected future sales trends?
+* Which stores show unusual sales behavior?
+* How do external factors influence sales performance?
 
-The project successfully delivered data-driven retail insights using SQL, Python, Power BI, and Tableau. It improved sales reporting, enabled performance tracking, and supported strategic business decisions through interactive dashboards and analytical reporting solutions.
+The solution combines predictive analytics and business intelligence dashboards to support strategic decision-making.
+
+---
+
+## 📊 Project Highlights
+
+| Metric                 | Value               |
+| ---------------------- | ------------------- |
+| Total Revenue Analyzed | $1.73 Billion       |
+| Predicted Sales        | $1.74 Billion       |
+| Active Stores          | 45                  |
+| Departments Analyzed   | 81                  |
+| Detected Anomalies     | 485                 |
+| Analysis Period        | Nov 2011 – Oct 2012 |
+
+---
+
+## 📁 Dataset
+
+This project utilizes the Walmart Store Sales Forecasting dataset consisting of historical sales records, store information, and external economic indicators.
+
+### Dataset Components
+
+**Train Dataset**
+
+* Weekly sales transactions
+* Store and department sales records
+
+**Features Dataset**
+
+* Temperature
+* Fuel Price
+* CPI
+* Unemployment
+* Holiday indicators
+* Promotional markdowns
+
+**Stores Dataset**
+
+* Store Type
+* Store Size
+
+The datasets were merged to create a unified analytical dataset for forecasting, anomaly detection, and business intelligence reporting.
+
+---
+
+## 🛠️ Technology Stack
+
+**Programming & Analytics**
+
+* Python
+* Pandas
+* NumPy
+
+**Visualization**
+
+* Power BI
+* Matplotlib
+* Seaborn
+
+**Database**
+
+* SQL
+
+**Development Tools**
+
+* Jupyter Notebook
+* Git
+* GitHub
+
+---
+
+## 🔄 Project Workflow
+
+Raw Data
+
+⬇
+
+Data Cleaning & Preprocessing
+
+⬇
+
+Exploratory Data Analysis
+
+⬇
+
+SQL-Based Business Analysis
+
+⬇
+
+Sales Forecasting
+
+⬇
+
+Scenario Simulation
+
+⬇
+
+Anomaly Detection
+
+⬇
+
+Power BI Dashboard Development
+
+⬇
+
+Business Insights & Recommendations
+
+---
+
+## 🔍 Analysis Performed
+
+### Data Preparation
+
+* Data Cleaning
+* Missing Value Treatment
+* Feature Engineering
+* Dataset Integration
+
+### Sales Performance Analysis
+
+* Revenue Trend Analysis
+* Store Performance Analysis
+* Department Performance Analysis
+* Holiday Impact Assessment
+
+### Forecasting Analysis
+
+* Weekly Sales Forecasting
+* Forecast Accuracy Evaluation
+* Scenario Simulation
+
+### Anomaly Detection
+
+* Identification of Unusual Sales Patterns
+* Store-Level Anomaly Analysis
+* Risk Detection
+
+### Business Intelligence
+
+* KPI Monitoring
+* Executive Reporting
+* Performance Benchmarking
+
+---
+
+## 📈 Key Insights
+
+* Walmart generated approximately **$1.73 Billion** in revenue during the analysis period.
+* Holiday periods contributed significantly to overall sales performance.
+* Forecasted sales closely aligned with actual sales trends.
+* Top-performing stores generated a disproportionately high share of revenue.
+* Fuel price fluctuations influenced sales behavior across stores.
+* **485 anomalous sales observations** were identified for operational review.
+
+---
+
+## 📊 Dashboard Screenshots
+
+### Executive Sales Dashboard
+
+![Executive Dashboard](screenshots/executive-dashboard.png)
+
+### Forecasting & Scenario Simulation Dashboard
+
+![Forecast Dashboard](screenshots/forecast-analysis.png)
+
+### Anomaly Detection Dashboard
+
+![Anomaly Dashboard](screenshots/anomaly-analysis.png)
+
+---
+
+## 💡 Business Impact
+
+This solution enables retail stakeholders to:
+
+* Improve sales forecasting accuracy
+* Monitor store and department performance
+* Detect unusual sales activity proactively
+* Optimize inventory planning
+* Improve holiday sales preparation
+* Support strategic decision-making through analytics
+
+---
+
+## 📂 Repository Structure
+
+```text
+Walmart-Sales-Forecasting/
+│
+├── data/
+│   ├── train.csv
+│   ├── features.csv
+│   ├── stores.csv
+│   └── walmart_final_v3.csv
+│
+├── notebooks/
+│   └── WALMARTS.ipynb
+│
+├── sql/
+│   └── walmart_analysis.sql
+│
+├── screenshots/
+│   ├── executive-dashboard.png
+│   ├── forecast-analysis.png
+│   └── anomaly-analysis.png
+│
+└── README.md
+```
+
+---
+
+## 👨‍💻 Author
+
+**Astha**
+
+Data Analytics | SQL | Python | Power BI | Business Intelligence | Machine Learning
+
+Passionate about transforming raw business data into actionable insights through analytics, visualization, and predictive modeling.
