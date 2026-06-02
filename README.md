@@ -181,7 +181,7 @@ Business Insights & Recommendations
 
 The executive dashboard provides a consolidated view of revenue, forecasted sales, store performance, department performance, holiday impact, and overall sales trends.
 
-![Executive Dashboard](screenshots/executive-dashboard.png)
+![Executive Dashboard](Screenshots/executive-dashboard.png)
 
 ---
 
@@ -189,7 +189,7 @@ The executive dashboard provides a consolidated view of revenue, forecasted sale
 
 This dashboard evaluates forecast performance, tracks prediction accuracy, analyzes forecast errors, and compares actual versus predicted sales.
 
-![Forecast Dashboard](screenshots/forecast-analysis.png)
+![Forecast Dashboard](Screenshots/forecast-analysis.png)
 
 ---
 
@@ -197,7 +197,7 @@ This dashboard evaluates forecast performance, tracks prediction accuracy, analy
 
 The anomaly detection dashboard identifies unusual sales patterns, highlights stores with abnormal sales behavior, and supports operational risk analysis.
 
-![Anomaly Dashboard](screenshots/anomaly-analysis.png)
+![Anomaly Dashboard](Screenshots/anomaly-analysis.png)
 ## 💡 Business Impact
 
 This solution enables retail stakeholders to:
